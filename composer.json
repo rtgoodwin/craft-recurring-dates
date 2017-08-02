@@ -22,7 +22,6 @@
         "handle": "recurring-dates",
         "schemaVersion": "1.0.0",
         "hasCpSettings": true,
-        "hasCpSection": false,        
-        "class": "recurring\\RecurringDate"
+        "hasCpSection": false
     }
 }

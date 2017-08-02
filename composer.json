@@ -1,5 +1,28 @@
 {
+    "name": "s1lentium/craft-recurring-dates",
+    "description": "This is a plugin for the Craft CMS to add recurring dates functionality",
+    "type": "craft-plugin",
+    "version": "2.0.0",
+    "license": "MIT",
+    "authors": [        
+        {
+            "name": "Alisher Safarov"
+        }
+    ],
     "require": {
-        "simshaun/recurr": "dev-master"
+        "simshaun/recurr": "^0.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "recurring\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Recurring dates",
+        "handle": "recurring-dates",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": true,
+        "hasCpSection": false,        
+        "class": "recurring\\RecurringDate"
     }
 }

@@ -188,7 +188,7 @@ window.advancedDate = function(id) {
           dateFormat: 'm/d/yy',
           defaultDate: new Date(),
           prevText:   'Prev',
-          nextText:   'Next',
+          nextText:   'Next'
         });
 
         var deleteClickHandler = function(){
@@ -199,7 +199,7 @@ window.advancedDate = function(id) {
       };
 
       repeatDateButton.on('click', clickHandler);
-    }
+    };
 
     _init();
 

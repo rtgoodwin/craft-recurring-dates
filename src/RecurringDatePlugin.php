@@ -1,16 +1,18 @@
 <?php
-namespace Craft;
+namespace recurring;
+use yii\base\Event;
+use craft\base\Plugin;
 
 require('vendor/autoload.php');
 
-class RecurringDatePlugin extends BasePlugin
+class RecurringDate extends Plugin
 {
 
 	public function init()
 	{
 		parent::init();
-    	
-		craft()->on('content.onSaveContent', function(Event $event) {
+
+        Event::on('content.onSaveContent', function(Event $event) {
 			craft()->recurringDate->contentSaved($event->params['content'], $event->params['isNewContent']);
 		});
 	}
@@ -22,16 +24,16 @@ class RecurringDatePlugin extends BasePlugin
 
 	function getVersion()
 	{
-		return '0.3';
+		return '2.0.0';
 	}
 
 	function getDeveloper()
 	{
-		return 'NXNW';
+		return 'Safarov Alisher';
 	}
 
 	function getDeveloperUrl()
 	{
-		return 'http://nxnw.net';
+		return 'https://github.com/S1lentium/craft-recurring-dates';
 	}
 }

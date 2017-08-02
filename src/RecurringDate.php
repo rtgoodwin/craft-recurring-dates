@@ -1,5 +1,5 @@
 <?php
-namespace recurring;
+namespace s1lentium\recurring;
 use yii\base\Event;
 use Craft;
 use craft\base\Plugin;

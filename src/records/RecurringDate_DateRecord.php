@@ -1,5 +1,5 @@
 <?php
-namespace Craft;
+namespace s1lentium\recurring\records;
 
 class RecurringDate_DateRecord extends BaseRecord
 {

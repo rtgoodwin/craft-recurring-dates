@@ -1,5 +1,5 @@
 <?php
-namespace Craft;
+namespace s1lentium\recurring\services;
 
 use Recurr;
 

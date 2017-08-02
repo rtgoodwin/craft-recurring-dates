@@ -1,11 +1,11 @@
 <?php
-namespace Craft;
+namespace s1lentium\recurring\fields;
 
 use Recurr;
 
 class RecurringDate_AdvancedDateFieldType extends BaseFieldType
 {
-	public function getName()
+	public function displayName()
 	{
 		return Craft::t('Advanced Date');
 	}
@@ -56,7 +56,7 @@ class RecurringDate_AdvancedDateFieldType extends BaseFieldType
 		
 		$attr['namespaceId'] = $namespaceId;
 
-		return craft()->templates->render('recurringdate/fields', $attr);
+		return Craft::$app->getView()->renderTemplate('recurringdate/fields', $attr);
 	}
 
 	//Leaving the db to be displayed

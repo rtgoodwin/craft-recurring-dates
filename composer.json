@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-          "recurring\\": "src/"
+          "s1lentium\\recurring\\": "src/"
         }
     },
     "extra": {
@@ -23,6 +23,6 @@
         "schemaVersion": "1.0.0",
         "hasCpSettings": true,
         "hasCpSection": false,
-        "class": "recurring\\RecurringDate"
+        "class": "s1lentium\\recurring\\RecurringDate"
     }
 }

@@ -1,7 +1,8 @@
 <?php
-namespace Craft;
+namespace s1lentium\recurring\models;
+use yii\base\Model;
 
-class RecurringDate_RuleModel extends BaseModel
+class RecurringDate_RuleModel extends Model
 {
 	protected function defineAttributes()
 	{

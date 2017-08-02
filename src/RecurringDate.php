@@ -4,8 +4,6 @@ use yii\base\Event;
 use Craft;
 use craft\base\Plugin;
 
-require('vendor/autoload.php');
-
 class RecurringDate extends Plugin
 {
 	public function init()

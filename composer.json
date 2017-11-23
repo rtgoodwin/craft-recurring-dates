@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "simshaun/recurr": "^0.6.1"
+        "simshaun/recurr": "^2.2.3"
     },
     "autoload": {
         "psr-4": {

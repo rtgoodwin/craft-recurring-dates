@@ -1,6 +1,11 @@
 craft-recurring-dates
 =====================
+_Forked from https://github.com/S1lentium/craft-recurring-dates which in turn was forked from https://github.com/nxnw/craft-recurring-dates
 
+Dear Reader: If you stumble across this, know that if I haven't updated this Readme, I have no idea if it actually works or won't trash your database. Maybe at some point this message will disappear and I will feel comfortable saying it's usable!
+
+
+# Original README Follows
 ### I could still use help testing and bug fixing. If you find any issues put them in the Github issues. Thanks
 
 This is a plugin for the Craft CMS to add recurring dates functionality. It adds a new field type called Advanced Date which has the recurring date functions. It stores the recurring dates and an rule in the data base and returns an array of dates to the twig templates. I'm using the [Recurr library](https://github.com/simshaun/recurr) by [simshaun](https://github.com/simshaun) to build and parse the rrule.
